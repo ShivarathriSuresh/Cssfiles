@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form using table tag</title>
+    <style>
+      th{color: rgb(252, 28, 3);}
+      select{color: rgb(250, 106, 3);}
+     .check{color:  rgb(255, 3, 3);}
+     .boxes{ color: rgba(6, 162, 167, 0.877);}
+    </style>
+</head>
+<body>
+   <center><form>
+      <table>
+<tr>
+   <th><label for="wr">Workshop Registration</label></th>
+   <td><select id="wr">
+      <option>More Actions</option>
+   </select></td>
+</tr>
+<tr>
+<th><u>Register now while seats are available</u></th>
+<td></td>
+<th><u>Lunch</u></th>
+</tr>
+<tr>
+<th><label for="fname">First Name</label></th>
+<td><input type="text" id="fname"></td>
+<th><label for="mp">Meal Preference</label></th>
+<td><select id="mp">
+<option>vegetarian</option>
+<option>Non-veg</option>
+</select></td>
+</tr>
+<tr>
+<th><label for="lname">Last Name</label> </th>
+<td><input type="text" id="lname"></td>
+<th><u>Payment details:</u></th>
+</tr>
+<tr>
+<th><label for="ci">Company institution</label></th>
+<td><input type="text" id="ci"></td>
+<th><label for="pm">Payment mode:</label></th>
+<td class="boxes"><input type="checkbox" id="pm" name="checkbox">Cash<br><input type="checkbox" id="pm" name="checkbox">Cheque<br><input type="checkbox" id="pm" name="checkbox">Demand draft</td>
+</tr>
+<tr>
+<th><label for="addr">Address</label></th>
+   <td><textarea type="text" id="addr" rows="6" cols="20"></textarea></td><br>
+   <td><label for="dc" class="check">DD/Cheque No.</label></td>
+   <td><input type="text" id="dc"></td>
+</tr>
+<tr>
+<th><label for="city">City</label></th>
+   <td><input type="text" id="city"></td>
+   <th><label for="db">Drawn On(Bank Name)</label></th>
+   <td><input type="text" id="db"></td>
+</tr>
+<tr>
+<th><label for="st">State/Province/Region</label></th>
+<td><select>
+   <option>-select-</option>
+</select></td>
+<th><label for="pay">Payable at</label></th>
+<td><input type="text" id="pay"></td>
+</tr>
+<tr>
+   <th><label for="st">Country</label></th>
+   <td><select>
+      <option>-select-</option>
+   </select></td>
+   
+</tr>
+<tr>
+   <th><label for="id">E-mail</label></th>
+   <td><input type="email" id="id"></td>
+</tr>
+<tr>
+   <th><label for="pn">Phone Number</label></th>
+   <td><input type="text" id="pn" maxlength="10"></td>
+</tr>
+      </table><br>
+<input style="color: white;background-color: rgb(7, 169, 233);padding: 5px 10px;" type="button" value="Submit">    <input style="color:white;background-color: rgb(7, 169, 233);padding: 5px 10px;" type="button" value="Reset"></center>
+</form>
+</body>
+</html>
